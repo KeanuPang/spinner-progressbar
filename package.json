@@ -1,0 +1,26 @@
+{
+  "name": "spinner-progressbar",
+  "version": "0.1.0",
+  "description": "Progress bar with spinner",
+  "keywords": [
+    "cli",
+    "progressbar",
+    "spinner"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "cli-spinners": "^1.1.0",
+    "log-update": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-ava": "^4.2.2"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Keanu Pang <keanu.pang@gmail.com>",
+  "license": "MIT"
+}
