@@ -17,5 +17,7 @@ setTimeout(() => {
 }, 1000);
 
 setTimeout(() => {
-  progressBar.tick(50);
+  progressBar.terminate(() => {
+    console.log('done');
+  })
 }, 2000);
